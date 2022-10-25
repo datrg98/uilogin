@@ -1,0 +1,7 @@
+type Home @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  address: String!
+  price: Int
+  image_url: String
+}
+ 
